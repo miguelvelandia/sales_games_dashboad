@@ -12,12 +12,11 @@ function handleQueryMapeResponse(response){
    
     var data_tree_map = response.getDataTable();  
         
-    var options = {
-        minColor: '#f00',
-        midColor: '#ddd',
-        maxColor: '#0d0',
+    var options = {      
         headerHeight: 15,
         fontColor: 'black',
+        showTooltip: true,
+       showInfoWindow: true,
         showScale: true
       }
 
